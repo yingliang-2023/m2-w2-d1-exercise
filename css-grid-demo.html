@@ -22,6 +22,19 @@ body {
   display: grid;
   grid-gap: 1rem;
 }
+/*media queries*/
+@media (min-width:600px) {
+  .cards{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(min-width:900px){
+  .cards{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
 
 </style>
 </head>
